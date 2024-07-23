@@ -1,0 +1,85 @@
+body{
+    margin: 0 auto;
+    font-family: system-ui;
+}
+.principal{
+    width: 100vw;
+    height: 50vw;
+    background-color: aliceblue;
+    display: flex;
+}
+.menu{
+    width: 20vw;
+    height: 100%;
+}
+.articulos{
+    width: 77vw;
+    height: 90%;
+    margin-top: 2.5vw;
+    background-color: rgb(188, 225, 231);
+    border-radius: 2vw;
+    overflow: hidden;
+}
+.campus{
+    font-size: 2vw;
+    margin: 3.5vw 3vw;
+}
+.quitlink{
+    text-decoration: none;
+}
+.productos{
+    margin-left: 2vw;
+    font-size: 1.4vw;
+    color: black;
+    background-color: rgb(188, 225, 231);
+    padding: 0.5vw;
+    width: 16vw;
+    margin-bottom: 2vw;
+}
+.productos img{
+    width: 1.5vw;
+}
+.productoss{
+    margin-left: 2vw;
+    font-size: 1.4vw;
+    color: black;
+    padding: 0.5vw;
+    width: 16vw;
+    margin-bottom: 2vw;
+}
+.productoss img{
+    width: 1.5vw;
+}
+.inventario{
+    display: flex;
+    justify-content: space-evenly;
+}
+.todos{
+    font-size: 2vw;
+    margin: 1.5vw;
+}
+.item{
+    border-radius: 1vw;
+    overflow: hidden;
+    width: 11vw;
+    height: 15.3vw;
+    margin-top: 2vw;
+    background-color: aliceblue;
+}
+.item img{
+    width: 11vw;
+    height: 12vw;
+}
+.info{
+    background-color: rgb(133, 153, 207);
+    font-size: 1.1vw;
+    padding: 0 0.5vw;
+    height: 5vw;
+}
+#agregar{
+    background-color: rgb(114, 113, 199);
+    padding: 0 0.1vw;
+    margin-left: 1vw;
+    color: rgb(0, 0, 0);
+    border-radius: 0.4vw;
+}
