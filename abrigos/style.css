@@ -32,15 +32,13 @@ body{
     margin-left: 2vw;
     font-size: 1.4vw;
     color: black;
+    background-color: rgb(188, 225, 231);
     padding: 0.5vw;
     width: 16vw;
-    margin-bottom: 6vw;
+    margin-bottom: 2vw;
 }
 .productos img{
     width: 1.5vw;
-}
-#seleccion{
-    background-color: rgb(188, 225, 231);
 }
 .productoss{
     margin-left: 2vw;
@@ -53,9 +51,24 @@ body{
 .productoss img{
     width: 1.5vw;
 }
+.productosss{
+    margin-left: 2vw;
+    font-size: 1.4vw;
+    color: black;
+    padding: 0.5vw;
+    width: 16vw;
+    margin-bottom: 6vw;
+}
+.productosss img{
+    width: 1.5vw;
+}
 .inventario{
     display: flex;
     justify-content: space-evenly;
+}
+.inventarioo{
+    display: flex;
+    margin-left: 6.3vw;
 }
 .todos{
     font-size: 2vw;

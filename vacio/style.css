@@ -19,7 +19,6 @@ body{
     background-color: rgb(188, 225, 231);
     border-radius: 2vw;
     overflow: hidden;
-    overflow-y: scroll;
 }
 .campus{
     font-size: 2vw;
@@ -30,10 +29,10 @@ body{
 }
 .productos{
     margin-left: 2vw;
+    width: 16vw;
     font-size: 1.4vw;
     color: black;
     padding: 0.5vw;
-    width: 16vw;
     margin-bottom: 6vw;
 }
 .productos img{
@@ -53,36 +52,23 @@ body{
 .productoss img{
     width: 1.5vw;
 }
-.inventario{
-    display: flex;
-    justify-content: space-evenly;
+.carrito{
+    margin-top: 5vw;
+    margin-left: 2vw;
+    font-size: 1.4vw;
+    color: black;
+    padding: 0.5vw;
+    width: 16vw;
+    margin-bottom: 2vw;
+}
+.carrito img{
+    width: 1.5vw;
 }
 .todos{
     font-size: 2vw;
     margin: 1.5vw;
 }
-.item{
-    border-radius: 1vw;
-    overflow: hidden;
-    width: 11vw;
-    height: 15.3vw;
-    margin-top: 2vw;
-    background-color: aliceblue;
-}
-.item img{
-    width: 11vw;
-    height: 12vw;
-}
-.info{
-    background-color: rgb(133, 153, 207);
-    font-size: 1.1vw;
-    padding: 0 0.5vw;
-    height: 5vw;
-}
-#agregar{
-    background-color: rgb(114, 113, 199);
-    padding: 0 0.1vw;
-    margin-left: 1vw;
-    color: rgb(0, 0, 0);
-    border-radius: 0.4vw;
+.carritovacio{
+    margin: 1.5vw;
+    font-size: 1.3vw;
 }

@@ -39,9 +39,6 @@ body{
 .productos img{
     width: 1.5vw;
 }
-#seleccion{
-    background-color: rgb(188, 225, 231);
-}
 .productoss{
     margin-left: 2vw;
     font-size: 1.4vw;
@@ -53,9 +50,16 @@ body{
 .productoss img{
     width: 1.5vw;
 }
+#seleccion{
+    background-color: rgb(188, 225, 231);
+}
 .inventario{
     display: flex;
     justify-content: space-evenly;
+}
+.inventarioo{
+    display: flex;
+    margin-left: 6.3vw;
 }
 .todos{
     font-size: 2vw;

@@ -36,11 +36,11 @@ body{
     width: 16vw;
     margin-bottom: 6vw;
 }
-.productos img{
-    width: 1.5vw;
-}
 #seleccion{
     background-color: rgb(188, 225, 231);
+}
+.productos img{
+    width: 1.5vw;
 }
 .productoss{
     margin-left: 2vw;
@@ -56,6 +56,10 @@ body{
 .inventario{
     display: flex;
     justify-content: space-evenly;
+}
+.inventarioo{
+    display: flex;
+    margin-left: 6.3vw;
 }
 .todos{
     font-size: 2vw;
